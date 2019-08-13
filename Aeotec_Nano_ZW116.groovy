@@ -169,7 +169,7 @@ private getMeterPower() {
 }
 
 private getMeterVoltage() { 
-	return getMeterMap("voltage", 4, "V", 150, settings?.displayVoltage != false) 
+	return getMeterMap("voltage", 4, "V", 300, settings?.displayVoltage != false) 
 }
 
 private getMeterCurrent() { 
